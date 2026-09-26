@@ -1,0 +1,24 @@
+{
+  "name": "mgox-global-ecommerce",
+  "version": "4.3.0-emergencia-8.5.1-si-jala",
+  "description": "MGOX GLOBAL - EMERGENCIA FINAL - jsonwebtoken 8.5.1 deploy OK - admin@mgoxglobal.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^11.0.0"
+  },
+  "overrides": {
+    "uuid": "^11.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
